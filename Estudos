@@ -1,0 +1,43 @@
+
+/*Primeiro programa
+
+using System;
+class HelloWorld {
+  static void Main() {
+   int n1,n2,res;
+  
+  n1 = 10;
+  n2 = 9;
+  res = 0;
+  res = n1 + n2;
+  
+ Console.WriteLine ("Resultado da soma eh: {0}", res);
+   
+   
+}
+
+}
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+/*Segundo programa
+
+using System;
+class File {
+  static void Main() {
+      
+      string nome, cidade, genero;
+      int idade;
+
+            Console.WriteLine("Digite o seu nome");
+      nome = Console.ReadLine();
+            Console.WriteLine("Digite sua idade");
+      idade = int.Parse(Console.ReadLine());
+           Console.WriteLine("Digite sua cidade");
+      cidade = Console.ReadLine();
+           Console.WriteLine("Digite seu genero");
+      genero = Console.ReadLine();
+      
+      Console.WriteLine("Seu nome é\t{0}\n sua idade eh\t{1}\n voce mora em\t{2}\n voce eh do genero\t{3}\n", nome, idade, cidade, genero);
+      
+  }
+  
+}
